@@ -51,4 +51,4 @@ import { FooterComponent } from './footer/footer.component';
   providers: [provideClientHydration()],
   bootstrap: [AppComponent],
 })
-export class AppModule {}
+export class AppModule { }

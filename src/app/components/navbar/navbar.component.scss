@@ -4,8 +4,12 @@
 }
 
 nav {
-  position: sticky;
+  position: fixed;
   top: 0px;
   background: $color-surface2;
-  z-index: 10;
+  transition-duration: 0.5s;
+}
+
+.hide-navbar {
+  top: -70px;
 }

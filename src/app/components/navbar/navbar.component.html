@@ -1,9 +1,9 @@
-<nav>
+<nav [class.hide-navbar]="hideNavbar">
   <div class="nav-wrapper">
     <a href="#" class="brand-logo"> 🧑 {{ configService.config.name }}</a>
     <ul id="nav-mobile" class="right hide-on-med-and-down">
       <li><a href="sass.html">👤 About me</a></li>
-      <li><a href="collapsible.html">🗂 Projects</a></li>
+      <li><a href="collapsible.html">📂 Projects</a></li>
       <li><a href="badges.html">📱 Contact me</a></li>
     </ul>
   </div>

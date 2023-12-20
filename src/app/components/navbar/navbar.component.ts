@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, HostListener } from '@angular/core';
 import { ConfigService } from '../../services/config.service';
 
 @Component({
@@ -7,5 +7,14 @@ import { ConfigService } from '../../services/config.service';
   styleUrl: './navbar.component.scss',
 })
 export class NavbarComponent {
-  constructor(public configService: ConfigService) {}
+  public currentScroll: number = 0;
+  public hideNavbar: boolean = false;
+
+  @HostListener('window:scroll', ['$event.target'])
+  onScroll() {
+    this.hideNavbar = window.scrollY > this.currentScroll ? true : false;
+    this.currentScroll = window.scrollY;
+  }
+
+  constructor(public configService: ConfigService) { }
 }
