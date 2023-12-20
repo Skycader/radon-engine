@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ConfigService } from '../../services/config.service';
 
 @Component({
   selector: 'app-welcome-message',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrl: './welcome-message.component.scss',
 })
 export class WelcomeMessageComponent {
-  public name: string = '{{your name}}';
+  constructor(public configService: ConfigService) {}
 }
