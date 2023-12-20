@@ -5,10 +5,28 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ServiceWorkerModule } from '@angular/service-worker';
+import { AvatarComponent } from './components/avatar/avatar.component';
+import { BlockComponent } from './components/block/block.component';
+import { TextComponent } from './components/text/text.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
+import { SkillComponent } from './components/skill/skill.component';
+import { SkillBlockComponent } from './components/skill-block/skill-block.component';
+import { ProjectBlockComponent } from './components/project-block/project-block.component';
+import { MainPageComponent } from './components/main-page/main-page.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AvatarComponent,
+    BlockComponent,
+    TextComponent,
+    NavbarComponent,
+    SkillComponent,
+    SkillBlockComponent,
+    ProjectBlockComponent,
+    MainPageComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
