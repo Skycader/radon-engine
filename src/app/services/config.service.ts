@@ -12,9 +12,9 @@ import { Config } from '../models/config.interface';
 export class ConfigService {
   public config: Config = {
     name: 'Your name',
-    info: 'Something interesting about me...',
+    info: ['Something interesting about me...'],
   };
-  constructor(private http: HttpClient) {}
+  constructor(private http: HttpClient) { }
 
   public getConfig() {
     return this.http.get(`assets/config/config.json`);

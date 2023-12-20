@@ -16,10 +16,11 @@ import { MainPageComponent } from './components/main-page/main-page.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { ProjectBlockComponent } from './components/project-block/project-block.component';
 import { SkillBlockComponent } from './components/skill-block/skill-block.component';
-import { SkillComponent } from './components/skill/skill.component';
 import { TextComponent } from './components/text/text.component';
 import { WelcomeMessageComponent } from './components/welcome-message/welcome-message.component';
-import { FooterComponent } from './footer/footer.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { NumbersComponent } from './components/numbers/numbers.component';
+import { ProjectsListComponent } from './components/projects-list/projects-list.component';
 
 @NgModule({
   declarations: [
@@ -28,13 +29,14 @@ import { FooterComponent } from './footer/footer.component';
     BlockComponent,
     TextComponent,
     NavbarComponent,
-    SkillComponent,
     SkillBlockComponent,
     ProjectBlockComponent,
     MainPageComponent,
     FooterComponent,
     WelcomeMessageComponent,
     InfoComponent,
+    NumbersComponent,
+    ProjectsListComponent,
   ],
   imports: [
     BrowserModule,
@@ -51,4 +53,4 @@ import { FooterComponent } from './footer/footer.component';
   providers: [provideClientHydration()],
   bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

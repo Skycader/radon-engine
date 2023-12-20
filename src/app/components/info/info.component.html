@@ -1,3 +1,8 @@
-<div class="col s12 m6 l6">
-  <p class="info-block flow-text">{{ configService.config.info }}</p>
+<div class="info-block col s12 m6 l6">
+  <p
+    *ngFor="let line of configService.config.info"
+    class="info-block flow-text"
+  >
+    {{ line }}
+  </p>
 </div>

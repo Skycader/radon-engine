@@ -1,4 +1,7 @@
 {
   "name": "Daniel",
-  "info": "... and I'm an Angular Developer."
+  "info": [
+    "... and I'm an Angular Developer,",
+    "passionate about making awesome software."
+  ]
 }
