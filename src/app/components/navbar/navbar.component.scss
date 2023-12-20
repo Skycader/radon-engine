@@ -1,3 +1,10 @@
 .brand-logo {
   padding-left: 8px;
 }
+
+nav {
+  position: sticky;
+  top: 0px;
+  background: #ff5252;
+  z-index: 10;
+}
