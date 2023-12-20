@@ -12,7 +12,6 @@ import {
   styleUrl: './avatar.component.scss',
 })
 export class AvatarComponent {
-  public window: Window = window;
   public tiltDeg = 1;
   @ViewChild('pane') pane: any;
   @HostListener('mousemove', ['$event'])

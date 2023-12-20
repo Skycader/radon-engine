@@ -4,7 +4,11 @@ import {
   provideClientHydration,
 } from '@angular/platform-browser';
 
-import { HttpClientModule } from '@angular/common/http';
+import {
+  HttpClientModule,
+  provideHttpClient,
+  withFetch,
+} from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { AppRoutingModule } from './app-routing.module';
@@ -50,7 +54,7 @@ import { ProjectsListComponent } from './components/projects-list/projects-list.
       registrationStrategy: 'registerWhenStable:30000',
     }),
   ],
-  providers: [provideClientHydration()],
+  providers: [provideClientHydration(), provideHttpClient(withFetch())],
   bootstrap: [AppComponent],
 })
-export class AppModule {}
+export class AppModule { }
