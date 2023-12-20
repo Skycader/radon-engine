@@ -8,6 +8,7 @@ nav {
   top: 0px;
   background: $color-surface2;
   transition-duration: 0.5s;
+  z-index: 10;
 }
 
 .hide-navbar {

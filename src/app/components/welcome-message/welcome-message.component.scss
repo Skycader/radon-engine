@@ -16,37 +16,8 @@ div {
   }
 }
 
-.buble-wrapper {
-  display: flex;
-  width: 100%;
-  justify-content: flex-end;
-}
-
-.bubble {
-  border-radius: 50%;
-  background: $color-paper;
-  margin: 0 auto;
-}
-
-.big {
-  width: 15px;
-  height: 15px;
-  margin-left: 0px;
-}
-
-.middle {
-  width: 10px;
-  height: 10px;
-  margin-left: 10px;
-}
-
-.small {
-  width: 5px;
-  height: 5px;
-  margin-left: 20px;
-}
-
 .welcome {
+  z-index: 10;
   width: auto;
   transform: translatey(0px);
   animation: float 5s ease-in-out infinite;

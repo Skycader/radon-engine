@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { ConfigService } from '../../services/config.service';
 
 @Component({
@@ -7,5 +7,6 @@ import { ConfigService } from '../../services/config.service';
   styleUrl: './info.component.scss',
 })
 export class InfoComponent {
-  constructor(public configService: ConfigService) {}
+  @Input() content: string[] = [];
+  constructor() { }
 }

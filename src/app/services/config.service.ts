@@ -11,8 +11,9 @@ import { Config } from '../models/config.interface';
 })
 export class ConfigService {
   public config: Config = {
-    name: 'Your name',
-    info: ['Something interesting about me...'],
+    name: '',
+    info: [],
+    about: [],
   };
   constructor(private http: HttpClient) { }
 

@@ -3,3 +3,20 @@
   height: auto;
   border-radius: 25px;
 }
+
+.pane {
+  position: relative;
+  perspective: 600px;
+  transition-duration: 0.2s;
+  z-index: 0;
+}
+
+.pane-tilt {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  transition: 0.1s;
+  display: flex;
+  transform-style: preserve-3d;
+}

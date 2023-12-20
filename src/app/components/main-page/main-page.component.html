@@ -2,12 +2,21 @@
   <div class="row">
     <app-welcome-message></app-welcome-message>
     <app-avatar></app-avatar>
-    <app-info></app-info>
+    <br />
+    <app-info [content]="configService.config.info"></app-info>
   </div>
 
-  <span id="about" class="heading">About me</span>
+  <br />
+  <div class="row">
+    <div class="col s12">
+      <span id="about" class="heading">About me</span>
+    </div>
+  </div>
 
-  <app-info></app-info>
+  <div class="row">
+    <app-info [content]="configService.config.about"></app-info>
+  </div>
+
   <br />
   <hr />
   <br />
@@ -33,5 +42,7 @@
   <hr />
   <br />
 
-  <span class="heading">Projects</span>
+  <div class="row">
+    <span class="heading">Projects</span>
+  </div>
 </div>
