@@ -1,10 +1,12 @@
 @import "styles/colors.scss";
-
+@import "styles/fonts.scss";
 html,
 body {
   height: 100%;
 }
 body {
   margin: 0;
-  font-family: Roboto, "Helvetica Neue", sans-serif;
+  font-family: Radon, Roboto, "Helvetica Neue", sans-serif;
+  background: $color-surface;
+  color: white;
 }
