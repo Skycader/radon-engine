@@ -1,5 +1,6 @@
 @import "styles/colors.scss";
 @import "styles/fonts.scss";
+@import "styles/scrollbar.scss";
 html,
 body {
   height: 100%;
@@ -9,4 +10,8 @@ body {
   font-family: Radon, Roboto, "Helvetica Neue", sans-serif;
   background: $color-surface;
   color: white;
+}
+
+* {
+  font-family: Radon;
 }
