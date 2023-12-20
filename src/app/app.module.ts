@@ -14,6 +14,8 @@ import { SkillBlockComponent } from './components/skill-block/skill-block.compon
 import { ProjectBlockComponent } from './components/project-block/project-block.component';
 import { MainPageComponent } from './components/main-page/main-page.component';
 import { FooterComponent } from './footer/footer.component';
+import { WelcomeMessageComponent } from './components/welcome-message/welcome-message.component';
+import { InfoComponent } from './components/info/info.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { FooterComponent } from './footer/footer.component';
     SkillBlockComponent,
     ProjectBlockComponent,
     MainPageComponent,
-    FooterComponent
+    FooterComponent,
+    WelcomeMessageComponent,
+    InfoComponent
   ],
   imports: [
     BrowserModule,
