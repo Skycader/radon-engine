@@ -1,3 +1,5 @@
+@import "../../../styles/colors.scss";
+
 div {
   margin-top: 20px;
   margin-left: 15px;
@@ -9,6 +11,7 @@ div {
       padding: 15px;
       font-size: 1.5rem;
       font-weight: 300;
+      box-shadow: 10px 5px 35px black;
     }
   }
 }
@@ -21,7 +24,7 @@ div {
 
 .bubble {
   border-radius: 50%;
-  background: #eeeeee;
+  background: $color-paper;
   margin: 0 auto;
 }
 
@@ -41,4 +44,73 @@ div {
   width: 5px;
   height: 5px;
   margin-left: 20px;
+}
+
+.welcome {
+  width: auto;
+  transform: translatey(0px);
+  animation: float 5s ease-in-out infinite;
+
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: 3px;
+  font-size: 25px;
+  background-color: $color-paper;
+  padding: 20px;
+  border-radius: 11px;
+  position: relative;
+  box-shadow: 20px 20px 5px rgba(0, 0, 0, 0.5);
+  // border: 1px solid $color-green;
+}
+.welcome:after {
+  transform: translatey(0px);
+  animation: float2 5s ease-in-out infinite;
+  content: ".";
+  font-weight: bold;
+  // -webkit-text-stroke: 0.5px $color-green;
+  -webkit-text-fill-color: $color-paper;
+  // border: 1px solid $color-green;
+  text-shadow: 22px 22px 5px rgba(0, 0, 0, 0.5);
+  text-align: left;
+  font-size: 55px;
+  width: 55px;
+  height: 11px;
+  line-height: 30px;
+  border-radius: 11px;
+  background-color: $color-paper;
+  position: absolute;
+  display: block;
+  bottom: -30px;
+  left: 0;
+  box-shadow: 22px 22px 5px rgba(0, 0, 0, 0.5);
+  z-index: -2;
+}
+
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-20px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
+
+@keyframes float2 {
+  0% {
+    line-height: 30px;
+    transform: translatey(0px);
+  }
+  55% {
+    transform: translatey(-20px);
+  }
+  60% {
+    line-height: 10px;
+  }
+  100% {
+    line-height: 30px;
+    transform: translatey(0px);
+  }
 }
