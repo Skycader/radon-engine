@@ -43,5 +43,10 @@
       ],
       "imageUrl": "https://skycader.github.io/resumee/assets/images/work-1.jpg"
     }
-  ]
+  ],
+  "numbers": {
+    "experience": "2+",
+    "projects": "12",
+    "clients": "3"
+  }
 }
