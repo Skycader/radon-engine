@@ -14,8 +14,17 @@ export class ConfigService {
     name: '',
     info: [],
     about: [],
+    projects: [],
+    numbers: {
+      experience: 0,
+      projects: 0,
+      clients: 0,
+    },
+    contacts: {
+      tg: '',
+    },
   };
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient) {}
 
   public getConfig() {
     return this.http.get(`assets/config/config.json`);
