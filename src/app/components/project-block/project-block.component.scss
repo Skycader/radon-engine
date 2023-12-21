@@ -1,0 +1,25 @@
+@import "../../../styles.scss";
+
+.project-wrapper {
+  width: 100%;
+  padding: 10px;
+  .project-block {
+    background: $color-surface2;
+    width: 100%;
+    padding: 20px;
+    border-radius: 25px;
+
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 25px;
+    }
+    .heading {
+      margin-left: 10px;
+    }
+    .project-info {
+      line-height: 30px;
+      padding: 20px;
+    }
+  }
+}
