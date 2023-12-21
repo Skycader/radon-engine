@@ -1,5 +1,8 @@
 @import "../../../styles.scss";
 
+.row {
+  perspective: 300px;
+}
 .project-wrapper {
   width: 100%;
   padding: 10px;

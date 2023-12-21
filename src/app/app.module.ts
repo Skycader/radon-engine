@@ -25,6 +25,7 @@ import { WelcomeMessageComponent } from './components/welcome-message/welcome-me
 import { FooterComponent } from './components/footer/footer.component';
 import { NumbersComponent } from './components/numbers/numbers.component';
 import { ProjectsListComponent } from './components/projects-list/projects-list.component';
+import { TiltDirective } from './directives/tilt.directive';
 
 @NgModule({
   declarations: [
@@ -41,6 +42,7 @@ import { ProjectsListComponent } from './components/projects-list/projects-list.
     InfoComponent,
     NumbersComponent,
     ProjectsListComponent,
+    TiltDirective,
   ],
   imports: [
     BrowserModule,
