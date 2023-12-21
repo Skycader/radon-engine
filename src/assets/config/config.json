@@ -32,5 +32,16 @@
       "Japanese - A1"
     ],
     "other": ["Bash", "Docker", "Nginx"]
-  }
+  },
+  "projects": [
+    {
+      "title": "Memos",
+      "description": [
+        "A powerful and simple app to make learning with ease.",
+        "Memos 2.0 is now being rewritten in Angular.",
+        "Take a close look."
+      ],
+      "imageUrl": "https://skycader.github.io/resumee/assets/images/work-1.jpg"
+    }
+  ]
 }

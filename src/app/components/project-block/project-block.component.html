@@ -2,12 +2,17 @@
   <div class="project-wrapper" appTilt>
     <div class="project-block row">
       <div class="col s12 m6 l6">
-        <div class="project-info heading">Todo App</div>
-        <div class="project-info flow-text">A todo app with real API</div>
+        <div class="project-info heading">{{ project.title }}</div>
+        <div
+          *ngFor="let description of project.description"
+          class="project-info flow-text"
+        >
+          {{ description }}
+        </div>
       </div>
 
       <div class="image col s12 m6 l6">
-        <img src="https://skycader.github.io/resumee/assets/images/todo.jpg" />
+        <img [src]="project.imageUrl" />
       </div>
     </div>
   </div>

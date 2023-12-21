@@ -59,9 +59,9 @@
       <span id="projects" class="heading">Projects</span>
     </div>
     <div class="col s12 m12 l12">
-      <app-projects-list></app-projects-list>
-      <app-projects-list></app-projects-list>
-      <app-projects-list></app-projects-list>
+      <app-projects-list
+        [projects]="configService.config.projects"
+      ></app-projects-list>
     </div>
   </div>
 </div>
