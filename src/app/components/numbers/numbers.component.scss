@@ -1,0 +1,27 @@
+.numbers {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  margin-top: 60px;
+}
+
+.numbers li {
+  margin-right: 60px;
+}
+
+.numbers strong {
+  display: block;
+  color: #f26464;
+  font-size: 36px;
+  font-weight: 800;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.numbers span {
+  font-size: 16px;
+  letter-spacing: 1px;
+}

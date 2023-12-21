@@ -1,10 +1,4 @@
-import {
-  Component,
-  ElementRef,
-  Host,
-  HostListener,
-  ViewChild,
-} from '@angular/core';
+import { Component, ElementRef, HostListener, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'app-avatar',
@@ -12,8 +6,16 @@ import {
   styleUrl: './avatar.component.scss',
 })
 export class AvatarComponent {
-  public tiltDeg = 1;
+  public tiltDeg = 3;
   @ViewChild('pane') pane: any;
+
+  @HostListener('mouseenter', ['$event'])
+  onMouseEnter() {
+    this.pane.nativeElement.style['transition-duration'] = '0.2s';
+    setTimeout(() => {
+      this.pane.nativeElement.style['transition-duration'] = null;
+    }, 200);
+  }
   @HostListener('mousemove', ['$event'])
   onMouseMove(event: any) {
     const { clientX, clientY } = event;
@@ -28,9 +30,13 @@ export class AvatarComponent {
   @HostListener('mouseleave', ['$event'])
   onMouseLeave(event: any) {
     this.pane.nativeElement.firstElementChild.style.transform = `rotateX(0deg) rotateY(0deg)`;
+    this.pane.nativeElement.style['transition-duration'] = '0.2s';
+    setTimeout(() => {
+      this.pane.nativeElement.style['transition-duration'] = null;
+    }, 200);
   }
 
-  constructor(private el: ElementRef) { }
+  constructor(private el: ElementRef) {}
 
-  ngOnInit() { }
+  ngOnInit() {}
 }
