@@ -1,5 +1,4 @@
 import { Component, Input } from '@angular/core';
-import { ConfigService } from '../../services/config.service';
 
 @Component({
   selector: 'app-info',
@@ -8,5 +7,11 @@ import { ConfigService } from '../../services/config.service';
 })
 export class InfoComponent {
   @Input() content: string[] = [];
-  constructor() { }
+  constructor() {}
+
+  ngOnInit() {
+    this.content = this.content.map((str: string) =>
+      str.length === 0 ? '‎' : str
+    );
+  }
 }

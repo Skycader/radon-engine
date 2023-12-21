@@ -3,7 +3,9 @@
     <app-welcome-message></app-welcome-message>
     <app-avatar></app-avatar>
     <br />
-    <app-info [content]="configService.config.info"></app-info>
+    <div class="col s12 m6 l6">
+      <app-info [content]="configService.config.info"></app-info>
+    </div>
   </div>
 
   <br />
@@ -14,7 +16,9 @@
   </div>
 
   <div class="row">
-    <app-info [content]="configService.config.about"></app-info>
+    <div class="col s12 m12 l12">
+      <app-info [content]="configService.config.about"></app-info>
+    </div>
   </div>
 
   <br />
@@ -24,17 +28,24 @@
   <div class="row">
     <div class="col l6">
       <span class="heading">Core skills</span
-      ><app-skill-block></app-skill-block>
+      ><app-skill-block
+        [skills]="configService.config.skills.core"
+      ></app-skill-block>
     </div>
     <div class="col l6">
-      <span class="heading">Languages</span><app-skill-block></app-skill-block>
+      <span class="heading">Languages</span
+      ><app-skill-block
+        [skills]="configService.config.skills.languages"
+      ></app-skill-block>
     </div>
   </div>
   <br />
   <div class="row">
     <div class="col l6">
       <span class="heading">Other skills</span
-      ><app-skill-block></app-skill-block>
+      ><app-skill-block
+        [skills]="configService.config.skills.other"
+      ></app-skill-block>
     </div>
   </div>
 

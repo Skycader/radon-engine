@@ -14,6 +14,11 @@ export class ConfigService {
     name: '',
     info: [],
     about: [],
+    skills: {
+      core: [],
+      languages: [],
+      other: [],
+    },
     projects: [],
     numbers: {
       experience: 0,

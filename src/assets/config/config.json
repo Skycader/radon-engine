@@ -2,7 +2,35 @@
   "name": "Daniel",
   "info": [
     "... and I'm an Angular Developer,",
-    "passionate about making awesome software."
+    "passionate about making awesome software.",
+    "",
+    "I am 22 years old now with more than 2 years of Angular experience behind my back.",
+    "",
+    "As you go down, you will see all you need to know about me within minutes.",
+    "",
+    "Enjoy."
   ],
-  "about": ["Since early childhood"]
+  "about": [
+    "As I code - I want to enjoy it, so the tools must be awesome and I choose the best.",
+    "Hence - Angular was chosen among all the others as the most powerful, scalable and reliable framework.",
+    "As an experienced developer, I had a few big products to work on, of which you may find interesting to read below."
+  ],
+  "skills": {
+    "core": [
+      "Angular",
+      "JavaScript",
+      "TypeScript",
+      "CSS3",
+      "SASS",
+      "HTML5",
+      "Webpack"
+    ],
+    "languages": [
+      "English - C1",
+      "Russian - C2",
+      "French - B2",
+      "Japanese - A1"
+    ],
+    "other": ["Bash", "Docker", "Nginx"]
+  }
 }

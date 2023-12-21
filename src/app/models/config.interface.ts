@@ -7,6 +7,11 @@ export interface Config {
     projects: number;
     clients: number;
   };
+  skills: {
+    core: string[];
+    languages: string[];
+    other: string[];
+  };
   projects: Project[];
   contacts: {
     tg?: string;
