@@ -35,13 +35,48 @@
   },
   "projects": [
     {
-      "title": "Memos",
+      "title": "FPK",
       "description": [
-        "A powerful and simple app to make learning with ease.",
-        "Memos 2.0 is now being rewritten in Angular.",
-        "Take a close look."
+        "FPK - a project designed to analyze the real-time movement of trains.",
+        " • Access actual train information",
+        " • Display train routes",
+        " • Display schedule"
       ],
-      "imageUrl": "https://skycader.github.io/resumee/assets/images/work-1.jpg"
+      "imageUrl": "https://i.imgur.com/HaT7Z5U.png",
+      "detailsUrl": ""
+    },
+    {
+      "title": "GROM",
+      "description": [
+        "GROM - an app to process tons of information on trains.",
+        " • Movements of cars",
+        " • Keep track of time",
+        " • Store manuals"
+      ],
+      "imageUrl": "https://i.imgur.com/VP5DN0W.jpg",
+      "detailsUrl": ""
+    },
+    {
+      "title": "SKKSP",
+      "description": [
+        "SKKSP - an app to control the behavoir of AI computer vision.",
+        " • Confirm or decline AI states",
+        " • Check bounding boxes",
+        " • Watch the WebRTC stream"
+      ],
+      "imageUrl": "https://i.imgur.com/yA86Y92.png",
+      "detailsUrl": ""
+    },
+    {
+      "title": "LIRA",
+      "description": [
+        "LIRA - another app to keep track of documents.",
+        " • Replacement of foreign software",
+        " • Powerful tools to make search",
+        " • Heavy forms processing"
+      ],
+      "imageUrl": "https://i.imgur.com/5T9Hsxt.jpg",
+      "detailsUrl": ""
     }
   ],
   "numbers": {
