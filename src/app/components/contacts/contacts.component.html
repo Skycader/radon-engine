@@ -1,8 +1,18 @@
 <ul>
   <li>
-    <a class="grey-text text-lighten-3" href="https://t.me/skycader">
+    <a class="grey-text text-lighten-3" [href]="'https://t.me/' + constacts.tg">
       <i class="bi bi-telegram"></i>
       {{ constacts.tg }}
+    </a>
+  </li>
+
+  <li>
+    <a
+      class="grey-text text-lighten-3"
+      [href]="'https://github.com/' + constacts.github"
+    >
+      <i class="bi bi-github"></i>
+      {{ constacts.github }}
     </a>
   </li>
 </ul>

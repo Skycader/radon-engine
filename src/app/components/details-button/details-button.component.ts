@@ -6,5 +6,5 @@ import { Component, Input } from '@angular/core';
   styleUrl: './details-button.component.scss',
 })
 export class DetailsButtonComponent {
-  @Input() detailsUrl!: string;
+  @Input() detailsUrl: string | undefined = '';
 }

@@ -77,14 +77,37 @@
       ],
       "imageUrl": "https://i.imgur.com/5T9Hsxt.jpg",
       "detailsUrl": ""
+    },
+    {
+      "title": "RZD Call Center",
+      "description": [
+        "Call Center - a simple yet showcase app demonstrating my skills.",
+        " • Written in Angular",
+        " • Uses Angular Material",
+        " • Available on Firebase and GitHub"
+      ],
+      "imageUrl": "https://skycader.github.io/resumee/assets/images/rzd-calls.png",
+      "detailsUrl": "https://rzd-call-center.web.app/"
+    },
+    {
+      "title": "Radon Engine",
+      "description": [
+        "Radon Engine - an easy to use CV showcase engine.",
+        " • Written in Angular",
+        " • You see it work right now",
+        " • Source code available on GitHub"
+      ],
+      "imageUrl": "https://i.imgur.com/rnvqXvr.png",
+      "detailsUrl": "https://github.com/Skycader/radon-engine"
     }
   ],
   "numbers": {
     "experience": "2+",
-    "projects": "12",
+    "projects": "12+",
     "clients": "3"
   },
   "contacts": {
-    "tg": "Skycader"
+    "tg": "Skycader",
+    "github": "Skycader"
   }
 }

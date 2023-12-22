@@ -16,6 +16,7 @@ export interface Project {
   title: string;
   description: string;
   imageUrl: string;
+  detailsUrl?: string;
 }
 
 export interface Numbers {
@@ -29,4 +30,5 @@ export interface Contacts {
   instagram?: string;
   vk?: string;
   fb?: string;
+  github?: string;
 }

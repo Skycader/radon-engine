@@ -12,7 +12,9 @@
 
         <br />
         <br />
-        <app-details-button></app-details-button>
+        <app-details-button
+          [detailsUrl]="project.detailsUrl"
+        ></app-details-button>
       </div>
       <div class="image col s12 m6 l6">
         <img [src]="project.imageUrl" />
