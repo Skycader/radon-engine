@@ -1,7 +1,7 @@
 <div id="root" class="container">
   <div class="row">
     <app-welcome-message></app-welcome-message>
-    <app-avatar></app-avatar>
+    <app-avatar [avatarUrl]="configService.config.avatarUrl"></app-avatar>
     <br />
     <div class="col s12 m6 l6">
       <br />

@@ -1,4 +1,10 @@
-import { Component, ElementRef, HostListener, ViewChild } from '@angular/core';
+import {
+  Component,
+  ElementRef,
+  HostListener,
+  Input,
+  ViewChild,
+} from '@angular/core';
 
 @Component({
   selector: 'app-avatar',
@@ -6,6 +12,7 @@ import { Component, ElementRef, HostListener, ViewChild } from '@angular/core';
   styleUrl: './avatar.component.scss',
 })
 export class AvatarComponent {
+  @Input() avatarUrl: string = '';
   public tiltDeg = 3;
   @ViewChild('pane') pane: any;
 
@@ -36,7 +43,7 @@ export class AvatarComponent {
     }, 200);
   }
 
-  constructor(private el: ElementRef) {}
+  constructor(private el: ElementRef) { }
 
-  ngOnInit() {}
+  ngOnInit() { }
 }
