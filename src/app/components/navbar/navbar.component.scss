@@ -1,6 +1,7 @@
 @import "../../../styles.scss";
 .brand-logo {
   padding-left: 8px;
+  font-size: 25px;
 }
 
 nav {
@@ -9,6 +10,18 @@ nav {
   background: $color-surface2;
   transition-duration: 0.5s;
   z-index: 10;
+}
+
+a {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+
+  i {
+    font-size: 16px;
+    margin-right: 5px;
+    color: $color-red;
+  }
 }
 
 .hide-navbar {
