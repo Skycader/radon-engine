@@ -1,5 +1,8 @@
 import { Component } from '@angular/core';
 import { ConfigService } from './services/config.service';
+import { Config } from './models/config.interface';
+import { Observable } from 'rxjs';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-root',
@@ -9,7 +12,10 @@ import { ConfigService } from './services/config.service';
 export class AppComponent {
   title = 'Radon';
 
-  constructor(private configService: ConfigService) {}
+  constructor(
+    private configService: ConfigService,
+    private titleService: Title,
+  ) { }
 
   public ngOnInit() {
     this.initializeCV();
@@ -18,6 +24,8 @@ export class AppComponent {
   public initializeCV() {
     this.configService.getConfig().subscribe((config: any) => {
       this.configService.config = config;
+      this.title = config.name;
+      this.titleService.setTitle(this.title);
     });
   }
 }

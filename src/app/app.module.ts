@@ -27,6 +27,7 @@ import { NumbersComponent } from './components/numbers/numbers.component';
 import { ProjectsListComponent } from './components/projects-list/projects-list.component';
 import { TiltDirective } from './directives/tilt.directive';
 import { ContactsComponent } from './components/contacts/contacts.component';
+import { DetailsButtonComponent } from './components/details-button/details-button.component';
 
 @NgModule({
   declarations: [
@@ -45,6 +46,7 @@ import { ContactsComponent } from './components/contacts/contacts.component';
     ProjectsListComponent,
     TiltDirective,
     ContactsComponent,
+    DetailsButtonComponent,
   ],
   imports: [
     BrowserModule,

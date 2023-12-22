@@ -7,14 +7,9 @@
       </div>
       <div class="col l4 offset-l2 s12">
         <h4 class="white-text">Contacts</h4>
-        <ul>
-          <li>
-            <a class="grey-text text-lighten-3" href="https://t.me/skycader">
-              <i class="bi bi-telegram"></i>
-              Skycader
-            </a>
-          </li>
-        </ul>
+        <app-contacts
+          [constacts]="configService.config.contacts"
+        ></app-contacts>
       </div>
     </div>
   </div>

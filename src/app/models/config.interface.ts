@@ -9,12 +9,7 @@ export interface Config {
     other: string[];
   };
   projects: Project[];
-  contacts: {
-    tg?: string;
-    instagram?: string;
-    vk?: string;
-    fb?: string;
-  };
+  contacts: Contacts;
 }
 
 export interface Project {
@@ -27,4 +22,11 @@ export interface Numbers {
   experience: string;
   projects: string;
   clients: string;
+}
+
+export interface Contacts {
+  tg: string;
+  instagram?: string;
+  vk?: string;
+  fb?: string;
 }
