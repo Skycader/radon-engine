@@ -26,6 +26,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { NumbersComponent } from './components/numbers/numbers.component';
 import { ProjectsListComponent } from './components/projects-list/projects-list.component';
 import { TiltDirective } from './directives/tilt.directive';
+import { ContactsComponent } from './components/contacts/contacts.component';
 
 @NgModule({
   declarations: [
@@ -43,6 +44,7 @@ import { TiltDirective } from './directives/tilt.directive';
     NumbersComponent,
     ProjectsListComponent,
     TiltDirective,
+    ContactsComponent,
   ],
   imports: [
     BrowserModule,
