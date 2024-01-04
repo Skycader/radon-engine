@@ -30,9 +30,10 @@ export class ConfigService {
       tg: '',
     },
   };
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient) {}
 
   public getConfig() {
-    return this.http.get(`assets/config/config.json`);
+    const salt = Date.now();
+    return this.http.get(`assets/config/config.json?${salt}`);
   }
 }
