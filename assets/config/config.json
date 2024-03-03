@@ -1,0 +1,125 @@
+{
+  "name": "Daniel",
+  "avatarUrl": "https://github.com/Skycader/resumee-js/blob/main/assets/images/avatar.jpg?raw=true",
+  "info": [
+    "... and I'm an Angular Developer,",
+    "passionate about making awesome software.",
+    "",
+    "I am 22 years old now with more than 2 years of Angular experience behind my back.",
+    "",
+    "As you go down, you will see all you need to know about me within minutes.",
+    "",
+    "Enjoy."
+  ],
+  "about": [
+    "As I code - I want to enjoy it, so the tools must be awesome and I choose the best.",
+    "Hence - Angular was chosen among all the others as the most powerful, scalable and reliable framework.",
+    "As an experienced developer, I had a few big products to work on, of which you may find interesting to read below."
+  ],
+  "skills": {
+    "core": [
+      "Angular",
+      "JavaScript",
+      "TypeScript",
+      "CSS3",
+      "SASS",
+      "HTML5",
+      "Webpack"
+    ],
+    "languages": [
+      "English - C1",
+      "Russian - C2",
+      "French - B2",
+      "Japanese - A1"
+    ],
+    "other": ["Bash", "Docker", "Nginx"]
+  },
+  "projects": [
+    {
+      "title": "Ardon Engine",
+      "description": [
+        "Ardon Engine - a ready-to-use blog with a powerful editor.",
+        " • Material Design",
+        " • Powerful editor",
+        " • Easy-to-use"
+      ],
+      "imageUrl": "https://i.imgur.com/OvVRQcN.png",
+      "detailsUrl": "https://vas-landshaftnik.ru/"
+    },
+    {
+      "title": "FPK",
+      "description": [
+        "FPK - a project designed to analyze the real-time movement of trains.",
+        " • Access actual train information",
+        " • Display train routes",
+        " • Display schedule"
+      ],
+      "imageUrl": "https://i.imgur.com/HaT7Z5U.png",
+      "detailsUrl": ""
+    },
+    {
+      "title": "GROM",
+      "description": [
+        "GROM - an app to process tons of information on trains.",
+        " • Movements of cars",
+        " • Keep track of time",
+        " • Store manuals"
+      ],
+      "imageUrl": "https://i.imgur.com/VP5DN0W.jpg",
+      "detailsUrl": ""
+    },
+    {
+      "title": "SKKSP",
+      "description": [
+        "SKKSP - an app to control the behavoir of AI computer vision.",
+        " • Confirm or decline AI states",
+        " • Check bounding boxes",
+        " • Watch the WebRTC stream"
+      ],
+      "imageUrl": "https://i.imgur.com/yA86Y92.png",
+      "detailsUrl": ""
+    },
+    {
+      "title": "LIRA",
+      "description": [
+        "LIRA - another app to keep track of documents.",
+        " • Replacement of foreign software",
+        " • Powerful tools to make search",
+        " • Heavy forms processing"
+      ],
+      "imageUrl": "https://i.imgur.com/5T9Hsxt.jpg",
+      "detailsUrl": ""
+    },
+    {
+      "title": "RZD Call Center",
+      "description": [
+        "Call Center - a simple yet showcase app demonstrating my skills.",
+        " • Written in Angular",
+        " • Uses Angular Material",
+        " • Available on Firebase and GitHub"
+      ],
+      "imageUrl": "https://github.com/Skycader/resumee-js/blob/main/assets/images/rzd-calls.png?raw=true",
+      "detailsUrl": "https://rzd-call-center.web.app/"
+    },
+    {
+      "title": "Radon Engine",
+      "description": [
+        "Radon Engine - an easy to use CV showcase engine.",
+        " • Written in Angular",
+        " • You see it work right now",
+        " • Source code available on GitHub"
+      ],
+      "imageUrl": "https://i.imgur.com/rnvqXvr.png",
+      "detailsUrl": "https://github.com/Skycader/radon-engine"
+    }
+  ],
+  "numbers": {
+    "experience": "2+",
+    "projects": "12+",
+    "clients": "3"
+  },
+  "contacts": {
+    "tg": "Skycader",
+    "github": "Skycader"
+  }
+}

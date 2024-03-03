@@ -1,0 +1,99 @@
+{
+  "configVersion": 1,
+  "timestamp": 1709474817256,
+  "index": "https://skycader.github.io/resumee/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://skycader.github.io/resumee/favicon.ico",
+        "https://skycader.github.io/resumee/index.html",
+        "https://skycader.github.io/resumee/main-DRFMAJ2N.js",
+        "https://skycader.github.io/resumee/manifest.webmanifest",
+        "https://skycader.github.io/resumee/polyfills-LZBJRJJE.js",
+        "https://skycader.github.io/resumee/scripts-YAENZGOK.js",
+        "https://skycader.github.io/resumee/styles-T3CGAOCF.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://skycader.github.io/resumee/assets/config/config.json",
+        "https://skycader.github.io/resumee/assets/fonts/googlesans.woff2",
+        "https://skycader.github.io/resumee/assets/fonts/remixicon.ttf",
+        "https://skycader.github.io/resumee/assets/icons/icon-128x128.png",
+        "https://skycader.github.io/resumee/assets/icons/icon-144x144.png",
+        "https://skycader.github.io/resumee/assets/icons/icon-152x152.png",
+        "https://skycader.github.io/resumee/assets/icons/icon-192x192.png",
+        "https://skycader.github.io/resumee/assets/icons/icon-384x384.png",
+        "https://skycader.github.io/resumee/assets/icons/icon-512x512.png",
+        "https://skycader.github.io/resumee/assets/icons/icon-72x72.png",
+        "https://skycader.github.io/resumee/assets/icons/icon-96x96.png",
+        "https://skycader.github.io/resumee/media/bootstrap-icons-BNVXHMH5.woff",
+        "https://skycader.github.io/resumee/media/bootstrap-icons-UDRIHJCM.woff2",
+        "https://skycader.github.io/resumee/media/remixicon-AMXKQD3B.ttf",
+        "https://skycader.github.io/resumee/media/remixicon-E2COD4VV.svg",
+        "https://skycader.github.io/resumee/media/remixicon-HIAKNL6E.woff2",
+        "https://skycader.github.io/resumee/media/remixicon-PFPBAXU7.woff"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://skycader.github.io/resumee/assets/config/config.json": "171d2d29a4223779b447f3ad6eb5b1fe1aeba2f7",
+    "https://skycader.github.io/resumee/assets/fonts/googlesans.woff2": "07a32032c2657192eb66af68414b755175db69df",
+    "https://skycader.github.io/resumee/assets/fonts/remixicon.ttf": "4140f6443c5ea8b9a8b45f1e0200766d6a52f530",
+    "https://skycader.github.io/resumee/assets/icons/icon-128x128.png": "f912963bdc6d5a38d8f1dd0afbaab2ce8d657acb",
+    "https://skycader.github.io/resumee/assets/icons/icon-144x144.png": "b155fd5f2fd5d2ea7760721063003c4cd95fd783",
+    "https://skycader.github.io/resumee/assets/icons/icon-152x152.png": "eae6e0f0c8afb8aaae339e2a569b43e9238e5e6c",
+    "https://skycader.github.io/resumee/assets/icons/icon-192x192.png": "15c4180454633880d98674aa7394656196c91584",
+    "https://skycader.github.io/resumee/assets/icons/icon-384x384.png": "94a915751ef6c9282df9aea405ad679230631814",
+    "https://skycader.github.io/resumee/assets/icons/icon-512x512.png": "1de182f76f7329dfa8f9fcdd1fdcdd695bea6a99",
+    "https://skycader.github.io/resumee/assets/icons/icon-72x72.png": "aa88a6096bd973be7f6d7a5489bfa6bc2463f8c4",
+    "https://skycader.github.io/resumee/assets/icons/icon-96x96.png": "7fb8f59c30ce2ff12c700321a0b39e14b3dc8f95",
+    "https://skycader.github.io/resumee/favicon.ico": "9c39f434fe1261f68c5e3eefdf734630d99c5670",
+    "https://skycader.github.io/resumee/index.html": "b575f2cca556c2b23d73c77e3fcd9282ba63a875",
+    "https://skycader.github.io/resumee/main-DRFMAJ2N.js": "9e22ba9f35a43b6a8317bb4a07945054513c5ba8",
+    "https://skycader.github.io/resumee/manifest.webmanifest": "ddae6788fda06251ae680c79d25a296c2bea9e74",
+    "https://skycader.github.io/resumee/media/bootstrap-icons-BNVXHMH5.woff": "56c1142eef349c581d14dcd45a1c2eba9b9463c1",
+    "https://skycader.github.io/resumee/media/bootstrap-icons-UDRIHJCM.woff2": "9d95f6fe35540b602284c9f2bfa67d2b464448f7",
+    "https://skycader.github.io/resumee/media/remixicon-AMXKQD3B.ttf": "4140f6443c5ea8b9a8b45f1e0200766d6a52f530",
+    "https://skycader.github.io/resumee/media/remixicon-E2COD4VV.svg": "78e7f08ac6863476cf0c05e607e3bcf44614a6b8",
+    "https://skycader.github.io/resumee/media/remixicon-HIAKNL6E.woff2": "dc4af2d4eef4ca10ef671a6126892c77002984b1",
+    "https://skycader.github.io/resumee/media/remixicon-PFPBAXU7.woff": "ee9f5f0c818e173af1e74da7128d8fb33daba4bc",
+    "https://skycader.github.io/resumee/polyfills-LZBJRJJE.js": "fda1c82c5c620f1fa442f687b3df45a037f6fcc9",
+    "https://skycader.github.io/resumee/scripts-YAENZGOK.js": "160a597e09722e974f1fbe93ab9f02accf2fee72",
+    "https://skycader.github.io/resumee/styles-T3CGAOCF.css": "9ff3e4113332f71212253b7d4057dd8b20c7c8f8"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
