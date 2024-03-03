@@ -5,6 +5,9 @@
     "ng": "ng",
     "start": "ng serve --port=8600",
     "build": "ng build --base-href 'https://skycader.github.io/resumee/'",
+    "upload": "npx angular-cli-ghpages --dir=dist/radon/browser",
+    "watch": "ng build --watch --configuration development",
+    "deploy": "yarn build && yarn upload",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
