@@ -36,6 +36,17 @@
   },
   "projects": [
     {
+      "title": "Ardon Engine",
+      "description": [
+        "Ardon Engine - a ready-to-use blog with a powerful editor.",
+        " • Material Design",
+        " • Powerful editor",
+        " • Easy-to-use"
+      ],
+      "imageUrl": "https://i.imgur.com/OvVRQcN.png",
+      "detailsUrl": "https://vas-landshaftnik.ru/"
+    },
+    {
       "title": "FPK",
       "description": [
         "FPK - a project designed to analyze the real-time movement of trains.",
