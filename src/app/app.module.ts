@@ -29,6 +29,7 @@ import { TiltDirective } from './directives/tilt.directive';
 import { ContactsComponent } from './components/contacts/contacts.component';
 import { DetailsButtonComponent } from './components/details-button/details-button.component';
 import { RatingComponent } from './components/rating/rating.component';
+import { SafeUrlPipe } from './utils/pipes/safe-url.pipe';
 
 @NgModule({
   declarations: [
@@ -49,6 +50,7 @@ import { RatingComponent } from './components/rating/rating.component';
     ContactsComponent,
     DetailsButtonComponent,
     RatingComponent,
+    SafeUrlPipe,
   ],
   imports: [
     BrowserModule,

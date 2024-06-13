@@ -13,6 +13,7 @@ export class ConfigService {
   public config: Config = {
     name: '',
     avatarUrl: '',
+    presentation: '',
     info: [],
     about: [],
     skills: {
@@ -30,7 +31,7 @@ export class ConfigService {
       tg: '',
     },
   };
-  constructor(private http: HttpClient) {}
+  constructor(private http: HttpClient) { }
 
   public getConfig() {
     const salt = Date.now();

@@ -1,6 +1,7 @@
 export interface Config {
   name: string /* your name i.e. Alex */;
   avatarUrl: string;
+  presentation: string;
   info: string[] /* tell about yourself shortly */;
   about: string[] /* tell about yourself not shortly */;
   numbers: Numbers;

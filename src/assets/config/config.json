@@ -5,7 +5,7 @@
     "... and I'm an Angular Developer,",
     "passionate about making awesome software.",
     "",
-    "I am 22 years old now with more than 2 years of Angular experience behind my back.",
+    "I am 23 years old now with more than 2 years of Angular experience behind my back.",
     "",
     "As you go down, you will see all you need to know about me within minutes.",
     "",
@@ -16,23 +16,32 @@
     "Hence - Angular was chosen among all the others as the most powerful, scalable and reliable framework.",
     "As an experienced developer, I had a few big products to work on, of which you may find interesting to read below."
   ],
+  "presentation": "https://www.youtube.com/embed/04HvztLv0pI?si=rIrViGqjurAE5Bxp",
   "skills": {
     "core": [
       "Angular",
+      "RxJS",
+      "NGRX",
+      "Cypress",
+      "Component testing",
+      "Unit testing",
+      "Angular Material",
+      "Nest.js",
       "JavaScript",
       "TypeScript",
       "CSS3",
       "SASS",
       "HTML5",
-      "Webpack"
+      "socket.io",
+      "Leaflet"
     ],
     "languages": [
       "English - C1",
       "Russian - C2",
       "French - B2",
-      "Japanese - A1"
+      "Japanese - A2"
     ],
-    "other": ["Bash", "Docker", "Nginx"]
+    "other": ["Bash", "Docker", "Nginx", "Linux", "SQL"]
   },
   "projects": [
     {
@@ -43,8 +52,19 @@
         " • Powerful editor",
         " • Easy-to-use"
       ],
-      "imageUrl": "https://i.imgur.com/OvVRQcN.png",
-      "detailsUrl": "https://vas-landshaftnik.ru/"
+      "imageUrl": "https://i.imgur.com/7Em64NS.png",
+      "detailsUrl": "https://vas-landshaftnik.ru/edit/drenazh-i-sistema-vodootvedeniya"
+    },
+    {
+      "title": "NGRX Todo App",
+      "description": [
+        "A pet project - simply add, check and remove your todos",
+        " • Material Design",
+        " • NGRX + IndexedDB",
+        " • E2E Testing engaged"
+      ],
+      "imageUrl": "https://i.imgur.com/IswXcCv.png",
+      "detailsUrl": "https://skycader.github.io/ngrx-todo-app/"
     },
     {
       "title": "FPK",
@@ -111,12 +131,22 @@
       ],
       "imageUrl": "https://i.imgur.com/rnvqXvr.png",
       "detailsUrl": "https://github.com/Skycader/radon-engine"
+    },
+    {
+      "title": "YesBankrot! app",
+      "description": [
+        " • An app to have a client database",
+        " • Easily manage your clients processes",
+        " • Upload documents and etc."
+      ],
+      "imageUrl": "https://i.imgur.com/ciPAlcz.png",
+      "detailsUrl": "https://yesbankrot.web.app/"
     }
   ],
   "numbers": {
-    "experience": "2+",
-    "projects": "12+",
-    "clients": "3"
+    "experience": "3+",
+    "projects": "30",
+    "clients": "8"
   },
   "contacts": {
     "tg": "Skycader",
